@@ -1,6 +1,6 @@
-# 💡TIP — Publicando en tu blog de WriteFreely desde Delta Chat
+# 💡TIP - Publicando en tu blog de WriteFreely desde Delta Chat
 
-## Parte 1 — Crear la cuenta y enlazarla con Delta Chat
+## Parte 1: Crear la cuenta y enlazarla con Delta Chat
 
 El bot del Fediverso (simplebot@testrun.org) permite escribir en tu blog de writefreely desde Delta Chat!
 
@@ -16,7 +16,7 @@ Sustituye "https://paper.wf" por la instancia donde hayas creado la cuenta, "ful
 en delta chat unos chats especiales con el nombre de los blogs que hayas creado (por defecto se crea un blog con tu nombre de usuario) cualquier cosa que publiques
 en esos chats se va a publicar en el blog asociando a ese chat.
 
-## Parte 2 — ¿Cómo publicar con estilo?
+## Parte 2: ¿Cómo publicar con estilo?
 
 ### Estructura de un artículo
 
