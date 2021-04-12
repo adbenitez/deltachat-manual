@@ -10,3 +10,4 @@ Temas disponibles:
   - [Descargando libros](https://github.com/adbenitez/deltachat-manual/blob/main/docs/books-download.md)
   - [Descubriendo usuarios y dándote a conocer](https://github.com/adbenitez/deltachat-manual/blob/main/docs/friends.md)
   - [Descargando juegos de GameBoy y otras consolas](https://github.com/adbenitez/deltachat-manual/blob/main/docs/roms-download.md)
+  - [Convirtiendo Delta Chat en un blog de notas offline](https://github.com/adbenitez/deltachat-manual/blob/main/docs/offline-notebook.md)
