@@ -1,12 +1,14 @@
 # 💡TIP - Publicando en tu blog de WriteFreely desde Delta Chat
 
+Writefreely es una red de blogs descentralizada (utiliza ActivityPub, el mismo protocolo que utiliza Mastodon) hay varias "instancias" o páginas donde puedes
+crearte una cuenta y  tener tus propios blogs disponibles en internet completamente gratis!
+
 ## Parte 1: Crear la cuenta y enlazarla con Delta Chat
 
 El bot del Fediverso (simplebot@testrun.org) permite escribir en tu blog de writefreely desde Delta Chat!
 
-Writefreely es una red de blogs descentralizada (utiliza ActivityPub, el mismo protocolo que utiliza Mastodon) hay varias "instancias" o páginas donde puedes
-crearte una cuenta y  tener tus propios blogs disponibles en internet completamente gratis! puedes ver la lista de instancias en https://writefreely.org/instances,
-una vez  creada la cuenta en la página que hayas escogido, por ejemplo https://paper.wf, usas el comando:
+Puedes ver la lista de instancias de WriteFreely en https://writefreely.org/instances, una vez  creada la cuenta en la página que hayas escogido, por ejemplo
+https://paper.wf, usas el comando:
 
 ```
 /wf_login https://paper.wf fulano contraseña
