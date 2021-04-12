@@ -24,8 +24,9 @@ reemplaza en el enlace "gameboy-advance" por "super-nintendo", o por ejemplo par
 
 -------
 
-**⚠️ NOTA:** Recuerda tener cuidado con el tamaño de los juegos que pides siempre revisa el tamaño antes de pedirlo, puedes pedir juegos de hasta 15MB,
-cubanos: no recomiendo hacer esto por bolsa de correo ni paquete de internet, solo para juegos pequeños, o para los que tienen red nacional la cual no cuesta nada
+**⚠️ NOTA:** Recuerda tener cuidado con el tamaño de los juegos que pides siempre revisa el tamaño antes de pedirlo, el tamaño máximo de los juegos que puedes
+pedir, varía en dependencia del bot, el correo nauta.cu algunos usuarios afirman que tiene un límite entre 20 y 25 MegaBytes.
+Cubanos: no recomiendo hacer esto por bolsa de correo ni paquete de internet, solo para juegos pequeños, o para los que tienen red nacional la cual no cuesta nada
 por tráfico de MB!
 
 -------
