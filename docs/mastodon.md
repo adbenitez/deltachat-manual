@@ -1,4 +1,4 @@
-# 💡TIP — ¿Cómo usar Mastodon desde Delta Chat?
+# ¿Cómo usar Mastodon desde Delta Chat?
 
 Es posible convertir Delta Chat en un cliente de Mastodon, publicar en tu cuenta de Mastodon, recibir las publicaciones de las personas que sigues, responder,
 retootear, dar "me gusta", chatear en privado con usuarios de Mastodon, etc.
