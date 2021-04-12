@@ -1,1 +1,1 @@
-# deltachat-manual
+# Manual de usuario para Delta Chat
