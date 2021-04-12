@@ -1,3 +1,5 @@
 # 📖 Manual de usuario para Delta Chat
 
-Por hacer...
+Temas disponibles:
+
+* [🤖 Bots](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md)
