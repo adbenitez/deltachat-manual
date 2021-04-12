@@ -1,1 +1,3 @@
-# Manual de usuario para Delta Chat
+# 📖 Manual de usuario para Delta Chat
+
+Por hacer...
