@@ -1,4 +1,4 @@
-# 💡TIP - Publicando en tu blog de WriteFreely desde Delta Chat
+# Publicando en tu blog de WriteFreely desde Delta Chat
 
 Writefreely es una red de blogs descentralizada (utiliza ActivityPub, el mismo protocolo que utiliza Mastodon) hay varias "instancias" o páginas donde puedes
 crearte una cuenta y  tener tus propios blogs disponibles en internet completamente gratis!
