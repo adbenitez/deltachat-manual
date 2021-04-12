@@ -2,7 +2,10 @@
 
 Temas disponibles:
 
-* [🤖 Bots](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md)
+* 🤖 Bots
+  - [¿Qué son "bots"?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md#qu%C3%A9-son-bots)
+  - [Listado de bots públicos](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md#bots-p%C3%BAblicos)
+  - [Montar tu propio bot o extender SimpleBot](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md#montar-tu-propio-bot-o-extender-simplebot)
 * 🌉 Puentes con otras plataformas
   - [¿Cómo publicar en tu blog de WriteFreely desde Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/writefreely.md)
   - [¿Cómo usar Mastodon desde Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/mastodon.md)
