@@ -11,3 +11,4 @@ Temas disponibles:
   - [Descubriendo usuarios y dándote a conocer](https://github.com/adbenitez/deltachat-manual/blob/main/docs/friends.md)
   - [Descargando juegos de GameBoy y otras consolas](https://github.com/adbenitez/deltachat-manual/blob/main/docs/roms-download.md)
   - [Convirtiendo Delta Chat en un blog de notas offline](https://github.com/adbenitez/deltachat-manual/blob/main/docs/offline-notebook.md)
+  - [Generar avatars desde Delta Chat](https://github.com/adbenitez/deltachat-manual/blob/main/docs/avatars.md)
