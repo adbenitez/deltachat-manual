@@ -30,3 +30,10 @@ Bot exclusivo para juegos. (lanzar dados, jugar juegos en solitario como color l
 
 - **dcbridge@echedeylr.tk**
 puente entre Delta Chat y la plataforma de chat IRC (freenode) (**NOTA:** actualmente este bot está en remodelación, no está abierto al público)
+
+
+## Montar tu propio bot o extender Simplebot
+
+Si eres programador y te interesa crear plugins para SimpleBot o montarte tu propia instancia de SimpleBot, lee: https://github.com/simplebot-org/simplebot
+
+SimpleBot es software libre y puedes ayudar a mejorarlo!
