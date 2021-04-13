@@ -33,6 +33,9 @@ Bot exclusivo para juegos. (lanzar dados, jugar juegos en solitario como color l
 - **dcbridge@echedeylr.tk**
 puente entre Delta Chat y la plataforma de chat IRC (freenode) (**NOTA:** actualmente este bot está en remodelación, no está abierto al público)
 
+### Mixto
+- **dc-public-groups@virgilio.it** 
+este bot nos llega desde **Italia** contiene plugins similares a los de **adb_bot1@testrun.org** y a los de los bots de navegación.
 
 ## Montar tu propio bot o extender SimpleBot
 
