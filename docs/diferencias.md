@@ -4,7 +4,7 @@
 Es la versión oficial de la aplicación. Es como Telegram o Whatsapp pero sin el rastreo o el control central. Delta Chat no necesita tu número de teléfono.
 No tiene servidores propios sino que utiliza el sistema de mensajería libre más masivo y diverso que existe: la red de servidores de correo electrónico existente. Chatea con quien quieras si conoces su dirección de correo electrónico, ¡no es necesario que instalen DeltaChat! Todo lo que necesitas es una cuenta de correo electrónico.
 
-##DeltaLab
+## DeltaLab
 
 Es un fork de la aplicación original compilada por el programador Asiel Díaz Benitez. Está pensada para *experimentar* con las funciones que aún no son implementadas en la versión oficial. Incluye las siguientes optimizaciones y cambios:
 
