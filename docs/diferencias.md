@@ -18,4 +18,4 @@ Es una modificación de la aplicación original creada por el programador Asiel 
 
 ## DeltaChat Lite
 
-Es la versión pensada para el ahorro extremo, está simplificada y se le han retirado funciones "innecesarias" para el uso diario de un cubano estándar.
+Es la versión pensada para el ahorro extremo, menor tamaño de apk y uso en teléfonos con versiones de Android antiguas, está simplificada y se le han retirado funciones no vitales.
