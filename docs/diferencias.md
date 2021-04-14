@@ -14,6 +14,7 @@ Es una modificación de la aplicación original creada por el programador Asiel 
 - Incluye las funcionalidades del ZHV y el Redir sin necesidad de instalarlas.
 - Diferente ícono.
 - Soporte para Markdown.
+- Viene preconfigurada para ahorrar al máximo con el cifrado desactivado por defecto.
 
 ## DeltaChat Lite
 
