@@ -16,4 +16,5 @@ Temas disponibles:
   - [Descargando juegos de GameBoy y otras consolas](https://github.com/adbenitez/deltachat-manual/blob/main/docs/roms-download.md)
   - [Descargando libros](https://github.com/adbenitez/deltachat-manual/blob/main/docs/books-download.md)
   - [Descubriendo usuarios y dándote a conocer](https://github.com/adbenitez/deltachat-manual/blob/main/docs/friends.md)
+  - [Diferencias entre DeltaChat (oficial), DeltaLab y DeltaChat Lite](https://github.com/adbenitez/deltachat-manual/blob/main/docs/diferencias.md)
   - [Generar avatars desde Delta Chat](https://github.com/adbenitez/deltachat-manual/blob/main/docs/avatars.md)
