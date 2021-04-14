@@ -16,5 +16,6 @@ Es un fork de la aplicación original compilada por el programador Asiel Díaz B
 - Incluye las funcionalidades del ZHV y el Redir sin necesidad de instalarlas.
 - Nuevo ícono.
 
-##DeltaLite:
+## DeltaLite
+
 Es la versión pensada para el ahorro extremo, está simplificada y se le han retirado funciones "innecesarias" para el uso diario de un cubano estándar.
