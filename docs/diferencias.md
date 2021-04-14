@@ -8,7 +8,7 @@ No tiene servidores propios sino que utiliza el sistema de mensajería libre má
 
 Es un fork de la aplicación original compilada por el programador Asiel Díaz Benitez. Está pensada para *experimentar* con las funciones que aún no son implementadas en la versión oficial. Incluye las siguientes optimizaciones y cambios:
 
-- Nuevos temas de colores (púrpura, verde, azul, rojo y rosa) aparte de los temas **claro**
+- Nuevos temas de colores aparte de los temas **claro** y **oscuro** originales.
  y **oscuro** originales.
 - Reducida la calidad de audio y las imágenes cuando la configuración se establece en "peor calidad, tamaño pequeño".
 - Más ahorro de datos, los mensajes en grupos gastan menos y además, los acuse de recibo (doble palomitas) no se envían en grupos aunque tengas la opción activada, permitiendo usar la opción en privado mientras la evitas en grupos.
