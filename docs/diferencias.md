@@ -1,6 +1,7 @@
 # Diferencias entre DeltaChat (oficial), DeltaLab y DeltaChat Lite
 
 ## DeltaChat (oficial)
+
 Es la versión oficial de la aplicación. Es como Telegram o Whatsapp pero sin el rastreo o el control central. Delta Chat no necesita tu número de teléfono.
 No tiene servidores propios sino que utiliza el sistema de mensajería libre más masivo y diverso que existe: la red de servidores de correo electrónico existente. Chatea con quien quieras si conoces su dirección de correo electrónico, ¡no es necesario que instalen DeltaChat! Todo lo que necesitas es una cuenta de correo electrónico.
 
