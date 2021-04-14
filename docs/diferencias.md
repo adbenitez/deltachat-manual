@@ -12,7 +12,8 @@ Es un fork de la aplicación original compilada por el programador Asiel Díaz B
 - Reducida la calidad de audio y las imágenes cuando la configuración se establece en "peor calidad, tamaño pequeño".
 - Más ahorro de datos, los mensajes en grupos gastan menos y además, los acuse de recibo (doble palomitas) no se envían en grupos aunque tengas la opción activada, permitiendo usar la opción en privado mientras la evitas en grupos.
 - Incluye las funcionalidades del ZHV y el Redir sin necesidad de instalarlas.
-- Nuevo ícono.
+- Diferente ícono.
+- Soporte para Markdown.
 
 ## DeltaChat Lite
 
