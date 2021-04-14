@@ -6,7 +6,7 @@ No tiene servidores propios sino que utiliza el sistema de mensajería libre má
 
 ## DeltaLab
 
-Es un fork de la aplicación original compilada por el programador Asiel Díaz Benitez. Está pensada para *experimentar* con las funciones que aún no son implementadas en la versión oficial. Incluye las siguientes optimizaciones y cambios:
+Es una modificación de la aplicación original creada por el programador Asiel Díaz Benítez y colaboradores. Está pensada para *experimentar* con las funciones que aún no son implementadas en la versión oficial. Incluye las siguientes optimizaciones y cambios:
 
 - Nuevos temas de colores aparte de los temas **claro** y **oscuro** originales.
 - Mayor reducción de la calidad de audio cuando la configuración se establece en "peor calidad, tamaño pequeño".
