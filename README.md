@@ -18,3 +18,4 @@ Temas disponibles:
   - [Descubriendo usuarios y dándote a conocer](https://github.com/adbenitez/deltachat-manual/blob/main/docs/friends.md)
   - [Diferencias entre DeltaChat (oficial), DeltaLab y DeltaChat Lite](https://github.com/adbenitez/deltachat-manual/blob/main/docs/diferencias.md)
   - [Generar avatars desde Delta Chat](https://github.com/adbenitez/deltachat-manual/blob/main/docs/avatars.md)
+  - [¿Como navegar en internet usando un Bot?](https://github.com/yomelhp/Como-navego-en-internet-usando-un-BOT/blob/main/como%20navegar%20con%20un%20bot.md)
