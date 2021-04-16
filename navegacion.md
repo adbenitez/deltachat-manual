@@ -18,7 +18,7 @@ Los [bots de navegación](https://github.com/adbenitez/deltachat-manual/blob/mai
 
   `/web https://delta.chat/es/`
 
-**De esta manera haz logrado hacer una búsqueda completa en Internet con tan solo usar un par de comandos y gastar apenas unos pocos KiloBytes**
+**De esta manera haz logrado hacer una búsqueda completa en Internet con tan solo usar un par de comandos y gastar apenas unos pocos KiloBytes :tada:**
 
 ## Solicitando páginas web y archivos
 
