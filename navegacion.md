@@ -1,4 +1,4 @@
-# Como navego en internet usando un bot
+# ¿Cómo navegar en Internet usando Delta Chat?
 
 Los bots de navegación son unos de los principales atractivos de **"Delta Chat"** (si no recuerdas cuales son [aqui](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md#bots-p%C3%BAblicos) te dejo la lista)
 
