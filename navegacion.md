@@ -10,7 +10,7 @@ Los [bots de navegación](https://github.com/adbenitez/deltachat-manual/blob/mai
 
  `/ddg Delta Chat`
  
- - El bot responderá con la pagina de resultado de tu búsqueda en un pequeño documento html.zip 
+ - El bot responderá con la página de resultado de tu búsqueda en un pequeño documento `.html.zip` 
  
  ### Paso 2
 
