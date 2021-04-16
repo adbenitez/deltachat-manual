@@ -6,9 +6,9 @@ Los [bots de navegación](https://github.com/adbenitez/deltachat-manual/blob/mai
 
 ### Paso 1
 
--  Utiliza el comando `/ddg` seguido de lo que quieres buscar 
+- Utiliza el comando `/ddg` seguido de lo que quieres buscar:
 
- `/ddg Delta Chat`
+    `/ddg Delta Chat`
  
  - El bot responderá con la página de resultado de tu búsqueda en un pequeño documento `.html.zip` 
  
