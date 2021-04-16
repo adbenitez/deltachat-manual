@@ -5,7 +5,8 @@ Los [bots de navegación](https://github.com/adbenitez/deltachat-manual/blob/mai
 **Ahora te enseño la manera de navegar en internet usando cualquiera de estos bots**
 
 ### Paso 1
--  Utiliza el comando **"ddg"** seguido de lo que quieres buscar 
+
+-  Utiliza el comando `/ddg` seguido de lo que quieres buscar 
 
  `/ddg Delta Chat`
  
