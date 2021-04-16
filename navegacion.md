@@ -2,7 +2,7 @@
 
 Los [bots de navegación](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md#navegaci%C3%B3n) son unos de los principales atractivos de Delta Chat.
 
-**Ahora te enseño la manera de navegar en internet usando cualquiera de estos bots**
+**Para buscar en Internet usando cualquiera de estos bots, sigue los pasos siguientes**
 
 ### Paso 1
 
