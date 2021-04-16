@@ -13,7 +13,8 @@ Los [bots de navegación](https://github.com/adbenitez/deltachat-manual/blob/mai
  - El bot responderá con la pagina de resultado de tu búsqueda en un pequeño documento html.zip 
  
  ### Paso 2
-- Lo siguiente que te queda por hacer es simplemente dar click al resultado que mas coincida con tus aspiraciones y enviar al bot el mensaje que te aparecerá 
+
+- Lo siguiente que te queda por hacer es simplemente dar click al resultado que más coincida con lo que buscas y enviar al bot el mensaje que te aparecerá 
 
 `/web https://delta.chat/en/`
 
