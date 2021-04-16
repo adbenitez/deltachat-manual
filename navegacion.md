@@ -16,7 +16,7 @@ Los [bots de navegación](https://github.com/adbenitez/deltachat-manual/blob/mai
 
 - Lo siguiente por hacer es simplemente dar click al resultado que más coincida con lo que buscas y enviar al bot el mensaje que te aparecerá, por ejemplo:
 
-  `/web https://delta.chat/en/`
+  `/web https://delta.chat/es/`
 
 **De esta manera haz logrado hacer una búsqueda completa en Internet con tan solo usar un par de comandos y gastar apenas unos pocos KiloBytes**
 
