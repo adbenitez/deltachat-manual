@@ -6,6 +6,6 @@ Hay varios grupos y comunidades en varias plataformas donde puedes recibir ayuda
 * Grupo sobre Delta Chat en ToDus: https://chat.todus.cu/2c0c42c0192752cb98a18affd3e999db
 * Grupo sobre Delta Chat en Telegram: https://t.me/deltachat2
 * Grupo sobre Delta Chat en Facebook: https://www.facebook.com/groups/deltachatcu
-* Grupo sobre Delta Chat en XMPP: [delta-chat-cuba@chat.disroot.org](xmpp:delta-chat-cuba@chat.disroot.org?join)
+* Grupo sobre Delta Chat en XMPP: xmpp:delta-chat-cuba@chat.disroot.org?join
 
 El foro oficial de Delta Chat es en https://support.delta.chat ahí puedes recibir ayuda o proponer mejoras o nuevas funciones a la app y recibir respuesta de los propios creadores de la app.
