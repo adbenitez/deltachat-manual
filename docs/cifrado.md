@@ -4,7 +4,7 @@ La confidencialidad en los mensajes es una de las mayores ventajas de Delta Chat
 
 1. Diríjase a Ajustes (En los tres puntos de la esquina superior derecha le salen 3 puntos, ahí busque la opción)
 2. Entre en  **Avanzado**
-3. Verifica que la opción **Permitir cifrado de extremo a extremo** esté activada.
+3. Verifique que la opción **Permitir cifrado de extremo a extremo** esté activada.
 4. Ahora si chateas con otras personas que usen Delta Chat u otra aplicación con cifrado de Autocrypt compatible, en la parte inferior de cada mensaje que envíe o reciba al lado de la fecha se mostrará un candadito que indica que los mensajes están cifrados, si el candado no está presente los mensajes no están cifrados y por tanto su proveedor de correo podría espiarlo.
 5. Para mayor seguridad aún, se recomienda verificar a sus contactos escaneando su código QR y creando grupos verificados que son más seguros que los grupos normales.
 
