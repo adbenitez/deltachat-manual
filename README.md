@@ -20,3 +20,4 @@ Temas disponibles:
   - [Generar avatars desde Delta Chat](https://github.com/adbenitez/deltachat-manual/blob/main/docs/avatars.md)
   - [¿Cómo navegar en Internet usando Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/navegacion.md)
   - [¿Dónde recibir ayuda?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/comunidad.md)
+  - [¿Cómo verificar que los mensajes están cifrados?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/cifrado.md)
