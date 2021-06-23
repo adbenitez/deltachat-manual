@@ -21,21 +21,17 @@ Estos son algunos bots públicos para [Delta Chat](https://delta.chat) si tienes
 
 ### Navegación
 
-- **deltabot@echedeylr.tk, simplebot@systemli.org, deltabot@buzon.uy** bots de navegación en internet, búsqueda y descargas de archivos, fotos, estado del tiempo, wikipedia, RSS, memes etc.
+- **deltabot@echedeylr.tk, simplebot@systemli.org, simple-facebook-bridge@testrun.org** bots de navegación en internet, búsqueda y descargas de archivos, fotos, estado del tiempo, wikipedia, RSS, memes etc.
 
 ### Juegos
 
 - **games@echedeylr.tk**
 Bot exclusivo para juegos. (lanzar dados, jugar juegos en solitario como color lines y buscaminas, y otros online con amigos: ajedrez, chain reaction, reversi, etc.)
 
-### IRC
-
-- **dcbridge@echedeylr.tk**
-puente entre Delta Chat y la plataforma de chat IRC (freenode) (**NOTA:** actualmente este bot está en remodelación, no está abierto al público)
 
 ### Misceláneo
-- **dc-public-groups@virgilio.it** 
-este bot nos llega desde **Italia** contiene plugins similares a los de **adb_bot1@testrun.org** y a los de los bots de navegación.
+- **deltabot@buzon.uy, juegos@buzon.uy** 
+bots con funcionalidades variadas.
 
 ## Montar tu propio bot o extender SimpleBot
 
