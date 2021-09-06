@@ -11,7 +11,7 @@ Puedes ver la lista de instancias de WriteFreely en https://writefreely.org/inst
 https://paper.wf, usas el comando:
 
 ```
-/wf_login https://paper.wf fulano contraseña
+/login https://paper.wf fulano contraseña
 ```
 
 Sustituye "https://paper.wf" por la instancia donde hayas creado la cuenta, "fulano" por tu usuario y "contraseña" por tu contraseña del blog, luego te aparecerán

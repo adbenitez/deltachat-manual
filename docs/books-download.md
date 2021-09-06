@@ -4,21 +4,21 @@ Puedes buscar/descargar libros y artículos científicos usando Delta Chat.
 
 ## Opción 1
 
-Una forma fácil de descargar PDF es enviando a algún [bot de navegación](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md#navegaci%C3%B3n) el
-comando siguiente:
+Una forma fácil de descargar PDF es enviando a algún [bot de navegación](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md) el
+mensaje siguiente:
 
 ```
-/ddg !pdf nombre de un libro
+!pdf nombre de un libro
 ```
 
-Ahí remplaze "nombre de un libro" por el nombre del libro que estés buscando.
+Ahí remplazar "nombre de un libro" por el nombre del libro que estés buscando.
 
 ## Opción 2
 
-Otra vía es buscar en [Library Genesis](https://es.wikipedia.org/wiki/Library_Genesis), utiliza el comando:
+Otra vía es buscar en [Library Genesis](https://es.wikipedia.org/wiki/Library_Genesis), envía un mensaje con:
 
 ```
-/web https://libgen.is/search.php?req=recetas de cocina
+https://libgen.is/search.php?req=recetas de cocina
 ```
 
 Remplaza "recetas de cocina" por el nombre de un libro, autor o palabra deseada, eso devuelve una tabla de resultados con los títulos, autores, cantidad de
@@ -27,10 +27,10 @@ y te lleva a una página donde puedes descargar la foto de la portada del libro 
 
 ## Opción 3
 
-Enviar a un bot de navegación el comando:
+Enviar a un bot de navegación el mensaje:
 
 ```
-/web https://www.debeleer.com/?s=el arte de amar
+https://www.debeleer.com/?s=el arte de amar
 ```
 
 1. Sustituye "el arte de amar" por el título que estés buscando, eso te devuelve una lista de libros con títulos similares a tu búsqueda.
@@ -40,4 +40,4 @@ Enviar a un bot de navegación el comando:
 4. Luego cuando recibas el PDF, presiona el mensaje por unos segundos para marcarlo, y da en el botón del disquete 💾 que aparece en la barra superior, eso pondrá
   el pdf en tu carpeta de descarga.
 5. Ya estás listo para leer tu nuevo libro ahora abrelo con tu lector de pdf, recomiendo usar esta apk para leer pdf, epub y varios formatos más:
-  [Book Reader](https://f-droid.org/packages/com.github.axet.bookreader)
+  [Librera Reader](https://f-droid.org/packages/com.foobnix.pro.pdf.reader)

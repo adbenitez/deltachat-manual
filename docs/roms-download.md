@@ -1,10 +1,10 @@
 # Descargando juegos de GameBoy y otras consolas con Delta Chat
 
-Para buscar juegos de GameBoy GBA, utiliza un [bot de navegación](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md#navegaci%C3%B3n), enviándole
-este comando:
+Para buscar juegos de GameBoy GBA, utiliza un [bot de navegación](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md), enviándole
+este mensaje:
 
 ```
-/web https://romsmania.cc/roms/gameboy-advance/search?name=super mario
+https://romsmania.cc/roms/gameboy-advance/search?name=super mario
 ```
 
 * Remplaza "super mario" por el juego o palabra que deseas buscar, eso te devuelve una página con una lista de juegos que coinciden con tu búsqueda
@@ -19,7 +19,7 @@ Ese sitio permite descargar juegos para una amplia gama de consolas, desde Super
 reemplaza en el enlace "gameboy-advance" por "super-nintendo", o por ejemplo para buscar juegos de Nintendo DS:
 
 ```
-/web https://romsmania.cc/roms/nintendo-ds/search?name=pokemon
+https://romsmania.cc/roms/nintendo-ds/search?name=pokemon
 ```
 
 -------
