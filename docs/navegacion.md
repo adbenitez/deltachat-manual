@@ -1,6 +1,6 @@
 # ¿Cómo navegar en Internet usando Delta Chat?
 
-Los [bots de navegación](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md) son unos de los principales atractivos de Delta Chat, con este tutorial aprenderás a usarlos.
+Los [bots](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md) de navegación son unos de los principales atractivos de Delta Chat, con este tutorial aprenderás a usarlos. (Para este tutorial puedes usar el bot de navegación dcbot@echedeylr.tk)
 
 ## Buscar en Internet
 
