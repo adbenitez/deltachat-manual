@@ -3,8 +3,7 @@
 Es posible convertir Delta Chat en un cliente de Mastodon, publicar en tu cuenta de Mastodon, recibir las publicaciones de las personas que sigues, responder,
 retootear, dar "me gusta", chatear en privado con usuarios de Mastodon, etc.
 
-Si no sabes qué es la red social Mastodon, te recomiendo leer [este artículo](https://writefreely.public.cat/adbenitez/mastodon-alternativa-libre-a-twitter) y la
-[página de Mastodon en Wikipedia](https://es.wikipedia.org/wiki/Mastodon_(red_social))
+Si no sabes qué es la red social Mastodon, te recomiendo leer la [página de Mastodon en Wikipedia](https://es.wikipedia.org/wiki/Mastodon_(red_social))
 
 ## PARTE 1: (Requiere Internet)
 Lo primero que necesitas es, obviamente, tener una cuenta en Mastodon, si ya tienes una cuenta en Mastodon, pasa a la segunda parte de este tutorial, si no, para
@@ -38,13 +37,14 @@ crearte una cuenta necesitas ir a Internet y:
   - **Notifications:** En este chat recibirás notificaciones cuando tengas un nuevo seguidor y cuando alguien le de "me gusta" o re-comparta tus publicaciones,
     además, aquí recibirás los toots en que seas mencionado por alguien, públicamente, o cuando fuiste mencionado en privado pero hay varias personas involucradas
     en la conversación.
+  - Puedes renombrar esos grupos y ponerle el nombre que te sea más cómodo para identificarlos.
 * Ahora puedes escribir tu primera publicación, para avisarme públicamente que te uniste a Mastodon, has lo siguiente: ve al chat “Home” y envía el mensaje:
   ```
   @adbenitez@mastodon.xyz #Hola, soy nuevo aquí #Cuba
   ```
-* Cuando alguien te escriba en privado (1×1) te aparecerá en tu Delta Chat, incluso con su foto de avatar.
-* Supongamos que quieres escribirle en privado al usuario “ejemplo@quey.org“, ve al Chat “Notifications” y envía el comando:
-`/m_dm ejemplo@quey.org`
+* Cuando un usuario de Mastodon te escriba en privado (1×1) te aparecerá en tu Delta Chat, incluso con su foto de avatar.
+* Supongamos que quieres escribirle en privado al usuario “ejemplo@masto.nogafam.es“, ve al Chat “Notifications” y envía el comando:
+`/m_dm ejemplo@masto.nogafam.es`
 * Supongamos que quieres seguir al usuario “ejemplo@mastodon.social“, envía este comando en tu chat “Notifications“:
 `/m_follow ejemplo@mastodon.social`
 * Para ver los toots públicos más recientes que se han publicado en tu instancia:
