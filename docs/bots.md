@@ -10,7 +10,7 @@ un comando que suelen tener todos los bots es `/help` con el cual el bot te resp
 ## Bots Públicos
 
 Un listado de bots públicos puede ser encontrado en:
-https://github.com/simplebot-org/simplebot-instances
+https://simplebot-org.github.io/simplebot-instances/
 
 ## Montar tu propio bot o extender SimpleBot
 
