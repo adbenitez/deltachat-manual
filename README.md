@@ -29,9 +29,9 @@
 
 * Applicaciones y juegos
   - [¿Qué son las aplicaciones para Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md)
-  - [¿Qué tipo de aplicaciones puedo crear para Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md)
-  - [Recursos para crear aplicaciones para Delta Chat](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md)
-  - [Creando tu primera aplicación para Delta Chat](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-helloworld.md)
+  - [¿Qué tipo de aplicaciones puedo crear para Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md#qu%C3%A9-tipo-de-aplicaciones-puedo-crear-para-delta-chat)
+  - [Recursos para crear aplicaciones para Delta Chat](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md#recursos-para-crear-aplicaciones-para-delta-chat)
+  - [Tutorial: Creando tu primera aplicación para Delta Chat](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-helloworld.md)
 
 * 🤖 Bots
   - [Montar tu propio bot o extender SimpleBot](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-bots.md)
