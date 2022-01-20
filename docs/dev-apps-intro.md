@@ -24,6 +24,10 @@ Los ficheros `.xdc` no son más que un fichero `.zip` pero renombrados con la ex
 
 Como las aplicaciones solo pueden comunicarse en red a través de mensajes enviados por el propio Delta Chat (correo electrónico) y no es posible utilizar Internet directamente, esto significa que el tipo de aplicaciones que mejor funcionarán son, por ejemplo, los juegos por turnos, o juegos donde solo se utilize la "red" para enviar tus nuevas puntuaciones en algún juego Arcade, etc. o sea no será posible crear juegos que necesiten interacción en red de varios usuarios en tiempo real como juegos de carreras de autos o juegos de tiros/shooters.
 
+## ¿Qué límite de tamaño tienen las applicaciones Webxdc?
+
+De momento (19 de enero del 2022) el tamaño máximo de un fichero `.xdc` permitido por Delta Chat es de 100KB, si tu programa excede ese tamaño, debes optimizar tus imágenes e ícono de la aplicación con herramientas como GIMP, y usar programas que te permitan "minimificar" tu código HTML, CSS y JavaScript, eliminando espacios en blanco y otros caracteres innecesarios.
+
 ## Recursos para crear aplicaciones para Delta Chat
 
 Estos son algunos recursos que pueden ser de ayuda a desarrolladores que
