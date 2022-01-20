@@ -18,6 +18,7 @@ Los ficheros `.xdc` no son más que un fichero `.zip` pero renombrados con la ex
 * En su interior tienen que contener un fichero `index.html` que es el punto de entrada o página principal de tu aplicación.
 * Opcionalmente, pueden contener un fichero `icon.png` o `icon.jpg` que será mostrado como icono de la aplicación en Delta Chat.
 * Adicionalmente, puedes incluir un fichero llamado `manifest.toml` que contega algo como `name = "Mi Primera App"` esto se usará como nombre de la aplicación y será mostrado en Delta Chat.
+* Y, por supuesto, puedes incluir cualquier cantidad de carpetas con recursos como imágenes, audio, CSS, JavaScript, etc. que necesite tu aplicación.
 
 ## ¿Qué tipo de aplicaciones puedo crear para Delta Chat?
 
