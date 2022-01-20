@@ -1,6 +1,6 @@
 # 📖 Manual de usuario para Delta Chat
 
-## Temas para usuarios:
+## Temas para usuarios
 
 * 🤖 Bots
   - [¿Qué son "bots"?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/bots.md#qu%C3%A9-son-bots)
@@ -25,7 +25,7 @@
   - [¿Cómo verificar que los mensajes están cifrados?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/cifrado.md)
 
 
-## Temas para desarrolladores:
+## Temas para desarrolladores
 
 * Applicaciones y juegos
   - [¿Qué son las aplicaciones para Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md)
