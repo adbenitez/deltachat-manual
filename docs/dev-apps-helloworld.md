@@ -42,9 +42,9 @@ function cambiarFondo(color) {
     var resumen = "Fondo: " + colores[color];
     window.webxdc.sendUpdate({summary: resumen, info: info, payload: color}, info);
     // window.webxdc.sendUpdate() es lo que usas para que tu aplicación se comunique entre varios dispositivos, el primer argumento es un diccionario con los siguientes atributos:
-    // "summary" (es opcional), puedes usarlo si quieres que se muestre un sumario en el mensaje donde se envió tu aplicación por ejemplo para mostrar un resumen del estado de la aplicación.
-    // "info" (es opcional), puedes usarlo si quieres que se muestre un mensaje en el chat avisando que algo cambió dentro de tu app, por ejemplo cuando alguien obtiene una nueva puntuación alta en un juego.
-    // "payload" es el que contiene cualquier información que quieras compartir con los otros dispositivos donde corre tu app, logrando así una interacción en red, en este atributo puedes colocar cualquier objeto de JavaScript, como una lista, diccionarios, etc.
+    //     "summary" (es opcional), puedes usarlo si quieres que se muestre un sumario en el mensaje donde se envió tu aplicación por ejemplo para mostrar un resumen del estado de la aplicación.
+    //     "info" (es opcional), puedes usarlo si quieres que se muestre un mensaje en el chat avisando que algo cambió dentro de tu app, por ejemplo cuando alguien obtiene una nueva puntuación alta en un juego.
+    //     "payload" es el que contiene cualquier información que quieras compartir con los otros dispositivos donde corre tu app, logrando así una interacción en red, en este atributo puedes colocar cualquier objeto de JavaScript, como una lista, diccionarios, etc.
     // el segundo parámetro que pasamos a window.webxdc.sendUpdate() es un texto con una descripción que se mostrará en el correo normal si alguien usa un cliente de correo normal para abrir el mensaje.
 }
 
@@ -75,9 +75,16 @@ Ya nuestra app está casi lista, ahora vamos a añadir algo que es opcional pero
 name = "Hola Mundo"
 ```
 
-este fichero permite establecer el nombre de tu aplicación que será mostrado en Delta Chat, cambia "Hola Mundo" por el nombre que quieras ponerle a la app. Adicionalmente puedes añadir una foto llamada `icon.png` o `icon.jpg` que servirá de ícono de tu aplicación y será mostrado al compartir tu app.
+este fichero permite establecer el nombre de tu aplicación que será mostrado en Delta Chat, cambia "Hola Mundo" por el nombre que quieras ponerle a la app. Además de este fichero `manifest.toml` puedes añadir una foto llamada `icon.png` o `icon.jpg` que servirá de ícono de tu aplicación y será mostrado al compartir tu app.
 
 ## Paso #4
 
 Bueno ya nuestra aplicación está lista, es una simple app que muestra el texto "Hola Mundo!" y unos botones para cambiar el color de fondo de la aplicación y, al presionarlos, el color cambia no solo para ti sino para todos los usuarios del chat donde hayas enviado la aplicación!
+
 Ahora solo nos queda empaquetar la aplicación en un fichero `.xdc` para que pueda ser ejecutada dentro de Delta Chat, para ello debes crear un fichero `.zip` que dentro contega el fichero `index.html`, `index.js` y `manifest.toml` que acabamos de crear, luego renombra el fichero `.zip`, cambiando `.zip` por `.xdc` y ya está! ya puedes compartir y usar tu aplicación con tus amigos.
+
+## Notas finales
+
+Importante! el fichero `.zip` debe contener los ficheros `index.html`, `manifest.toml`, etc. directamente en la raíz del zip, NO en una carpeta dentro del zip.
+
+En este ejemplo para separar mejor las cosas a la hora de explicar, creé el fichero `index.js` separado para el JavaScript, pero bien puedes incluir tu lógica dentro del propio fichero `index.html` directamente dentro de unos tags `<script></script>`

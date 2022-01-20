@@ -1,10 +1,15 @@
 # ¿Qué son las aplicaciones para Delta Chat?
 
 Delta Chat tiene soporte para una especie de "aplicaciones web" llamadas "webxdc" que no son más que unos ficheros `.xdc` los cuales se muestran como aplicaciones en Delta Chat y las cuales los usuarios pueden abrir para jugar o obtener alguna utilidad.
+
 Estas aplicaciones tienen la capacidad de interactuar con Delta Chat y poder enviar ciertos mensajes especiales que hacen posible la interacción en red entre varios usuarios dentro de la app en cuestión.
+
 Cada vez que un usuario envía tu aplicación, esto es una instancia distinta de tu aplicación o sea se puede enviar la misma aplicación varias veces y por ejemplo si es un juego, tener partidas distintas por cada instancia enviada.
+
 Las aplicaciones están contenidas dentro de un visor HTML o navegador web especial donde están restringidas y aisladas, no tienen acceso a internet, esto es una ventaja para los usuarios ya que es mejor para su seguridad, la aplicación no puede enviar tu información privada a algún servidor en Internet, todo queda entre el usuario y sus amigos, la única forma de comunicación que tiene la app es en el chat donde esta es enviada.
+
 Como creador, para ti esto significa que tu aplicación debe contener todos los recursos que necesita, imágenes, CSS, JavaScript, bibliotecas como jQuery, React, Bootstrap, etc. todas deben estar incluidas dentro de tu paquete `.xdc`, no puedes cargarlas de la red y que tu aplicación no puede mandar correos a cualquier dirección en particular que tú desees, sino solo en el chat donde el usuario decida usar tu app.
+
 Otro aspecto a tener en cuenta es que estas aplicaciones solo trabajan mientras el usuario las tiene abiertas, o sea no pueden estar funcionando en segundo plano.
 
 ## Estructura de una aplicación
