@@ -71,7 +71,7 @@ if (updates.length > 0) {
 
 Ya nuestra app está casi lista, ahora vamos a añadir algo que es opcional pero mejora la apariencia de nuestra aplicación al ser compartida en Delta Chat, crea un fichero llamado `manifest.toml` y en su interior escribe:
 
-```
+```toml
 name = "Hola Mundo"
 ```
 
