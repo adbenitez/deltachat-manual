@@ -26,7 +26,7 @@ Como las aplicaciones solo pueden comunicarse en red a través de mensajes envia
 
 ## ¿Qué límite de tamaño tienen las applicaciones Webxdc?
 
-De momento (19 de enero del 2022) el tamaño máximo de un fichero `.xdc` permitido por Delta Chat es de 100KB, si tu programa excede ese tamaño, debes optimizar tus imágenes e ícono de la aplicación con herramientas como GIMP, y usar programas que te permitan "minimificar" tu código HTML, CSS y JavaScript, eliminando espacios en blanco y otros caracteres innecesarios.
+De momento (19 de enero del 2022) el tamaño máximo de un fichero `.xdc` permitido por Delta Chat es de 100KB, si tu programa excede ese tamaño, debes optimizar tus imágenes e ícono de la aplicación con herramientas como GIMP, y usar programas que te permitan "minimificar"/minify tu código HTML, CSS y JavaScript, eliminando espacios en blanco y otros caracteres innecesarios.
 
 ## Recursos para crear aplicaciones para Delta Chat
 
