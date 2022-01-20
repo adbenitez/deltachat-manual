@@ -1,6 +1,6 @@
 # ¿Qué son las aplicaciones para Delta Chat?
 
-Delta Chat tiene soporte para una especie de "aplicaciones web" llamadas "webxdc" que no son más que unos ficheros `.xdc` los cuales se muestran como aplicaciones en Delta Chat y las cuales los usuarios pueden abrir para jugar o obtener alguna utilidad.
+Delta Chat tiene soporte para una especie de "aplicaciones web" llamadas "webxdc" que no son más que unos ficheros con extensión `.xdc` los cuales se muestran como aplicaciones en Delta Chat y las cuales los usuarios pueden abrir para jugar o obtener alguna utilidad.
 
 Estas aplicaciones tienen la capacidad de interactuar con Delta Chat y poder enviar ciertos mensajes especiales que hacen posible la interacción en red entre varios usuarios dentro de la app en cuestión.
 
