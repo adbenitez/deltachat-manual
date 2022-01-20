@@ -22,7 +22,7 @@ Los ficheros `.xdc` no son más que un fichero `.zip` pero renombrados con la ex
 
 ## ¿Qué tipo de aplicaciones puedo crear para Delta Chat?
 
-Como las aplicaciones solo pueden comunicarse en red a través de mensajes enviados por el propio Delta Chat (correo electrónico) y no es posible utilizar Internet directamente, esto significa que el tipo de aplicaciones que mejor funcionarán son, por ejemplo, los juegos por turnos, o juegos donde solo se utilize la "red" para enviar tus nuevas puntuaciones en algún juego Arcade, etc. o sea no será posible crear juegos que necesiten interacción en red de varios usuarios en tiempo real como juegos de carreras de autos o juegos de tiros/shooters.
+Como las aplicaciones solo pueden comunicarse en red a través de mensajes enviados por el propio Delta Chat (correo electrónico) y no es posible utilizar Internet directamente, esto significa que el tipo de aplicaciones que mejor funcionarán son, por ejemplo, los juegos por turnos, o juegos donde solo se utilize la "red" para enviar tus nuevas puntuaciones en algún juego Arcade, etc. o sea no será posible crear juegos que necesiten interacción en red de varios usuarios en tiempo real como juegos de carreras de autos o juegos de tiros/shooters que sean multijugador.
 
 ## ¿Qué límite de tamaño tienen las applicaciones Webxdc?
 
