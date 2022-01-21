@@ -27,7 +27,7 @@
 
 ## Temas para desarrolladores
 
-* Applicaciones y juegos
+* Aplicaciones y juegos
   - [¿Qué son las aplicaciones para Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md)
   - [¿Qué tipo de aplicaciones puedo crear para Delta Chat?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md#qu%C3%A9-tipo-de-aplicaciones-puedo-crear-para-delta-chat)
   - [¿Qué límite de tamaño tienen las applicaciones Webxdc?](https://github.com/adbenitez/deltachat-manual/blob/main/docs/dev-apps-intro.md#qu%C3%A9-l%C3%ADmite-de-tama%C3%B1o-tienen-las-applicaciones-webxdc)
