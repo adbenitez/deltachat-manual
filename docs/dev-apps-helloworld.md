@@ -37,8 +37,8 @@ var colores = {red: 'Rojo', green: 'Verde', blue: 'Azul', yellow: 'Amarillo'}
 
 // Esta función es llamada cuando el usuario hace click en un botón:
 function cambiarFondo(color) {
-    // window.webxdc.selfName() permite obtener el nombre del usuario donde está corriendo tu app en este momento, adicionalmente puedes usar window.webxdc.selfAddr() para obtener su dirección de correo para usarla como identificador/ID del usuario
-    var info = window.webxdc.selfName() + ' cambió el color de fondo a: ' + colores[color];
+    // window.webxdc.selfName permite obtener el nombre del usuario donde está corriendo tu app en este momento, adicionalmente puedes usar window.webxdc.selfAddr para obtener su dirección de correo para usarla como identificador/ID del usuario
+    var info = window.webxdc.selfName + ' cambió el color de fondo a: ' + colores[color];
     var resumen = "Fondo: " + colores[color];
     window.webxdc.sendUpdate({summary: resumen, info: info, payload: color}, info);
     // window.webxdc.sendUpdate() es lo que usas para que tu aplicación se comunique entre varios dispositivos, el primer argumento es un diccionario con los siguientes atributos:
@@ -59,12 +59,13 @@ function receiveUpdate(update) {
 // con window.webxdc.setUpdateListener() registramos una función o callback que será la que processará los estados que recibimos mientras la app está abierta.
 window.webxdc.setUpdateListener(receiveUpdate);
 
-// con window.webxdc.getAllUpdates() obtenemos todos los estados que hemos recibido en el pasado, esto nos sirve para restaurar el estado de nuestra aplicación cuando el usuario la abre.
-var updates = window.webxdc.getAllUpdates();
-// si hay estados antiguos, restablecer el estado de la app con el último estado recibido:
-if (updates.length > 0) {
-    receiveUpdate(updates[updates.length - 1]);
-}
+// con window.webxdc.getAllUpdates() obtenemos **de forma asíncrona** todos los estados que hemos recibido en el pasado, esto nos sirve para restaurar el estado de nuestra aplicación cuando el usuario la abre.
+window.webxdc.getAllUpdates().then((updates) => {
+    // si hay estados antiguos, restablecer el estado de la app con el último estado recibido:
+    if (updates.length > 0) {
+        receiveUpdate(updates[updates.length - 1]);
+    }
+});
 ```
 
 ## Paso #3 (opcional)
@@ -77,7 +78,15 @@ name = "Hola Mundo"
 
 este fichero permite establecer el nombre de tu aplicación que será mostrado en Delta Chat, cambia "Hola Mundo" por el nombre que quieras ponerle a la app. Además de este fichero `manifest.toml` puedes añadir una foto llamada `icon.png` o `icon.jpg` que servirá de ícono de tu aplicación y será mostrado al compartir tu app.
 
-## Paso #4
+## Paso #4 (Opcional)
+
+Puedes probar la app en el navegador de tu computadora de escritorio, para ello debes bajarte este simple fichero que sirve de simulador:
+https://raw.githubusercontent.com/deltachat/webxdc-dev/master/webxdc.js
+colocalo en la misma carpeta donde está el fichero `index.html` de tu aplicación, luego simplemente abre el fichero `index.html` en tu navegador y
+podrás probar to aplicación, el simulador añade un menú a la página que te permite añadir más pestañas que simulan cada una un usuario distinto de
+Delta Chat usando tu aplicación y puedes probar la interacción en red entre los usuarios de tu app.
+
+## Paso #5
 
 Bueno ya nuestra aplicación está lista, es una simple app que muestra el texto "Hola Mundo!" y unos botones para cambiar el color de fondo de la aplicación y, al presionarlos, el color cambia no solo para ti sino para todos los usuarios del chat donde hayas enviado la aplicación!
 

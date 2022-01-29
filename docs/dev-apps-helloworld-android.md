@@ -55,8 +55,8 @@ var colores = {red: 'Rojo', green: 'Verde', blue: 'Azul'}
 
 // Esta función es llamada cuando el usuario hace click en un botón:
 function cambiarFondo(color) {
-    // window.webxdc.selfName() permite obtener el nombre del usuario donde está corriendo tu app en este momento, adicionalmente puedes usar window.webxdc.selfAddr() para obtener su dirección de correo para usarla como identificador/ID del usuario
-    var info = window.webxdc.selfName() + ' cambió el color de fondo a: ' + colores[color];
+    // window.webxdc.selfName permite obtener el nombre del usuario donde está corriendo tu app en este momento, adicionalmente puedes usar window.webxdc.selfAddr para obtener su dirección de correo para usarla como identificador/ID del usuario
+    var info = window.webxdc.selfName + ' cambió el color de fondo a: ' + colores[color];
     var resumen = "Fondo: " + colores[color];
     window.webxdc.sendUpdate({summary: resumen, info: info, payload: color}, info);
     // window.webxdc.sendUpdate() es lo que usas para que tu aplicación se comunique entre varios dispositivos, el primer argumento es un diccionario con los siguientes atributos:
@@ -78,12 +78,13 @@ window.addEventListener("load", () => {
     // con window.webxdc.setUpdateListener() registramos una función o callback que será la que processará los estados que recibimos mientras la app está abierta.
     window.webxdc.setUpdateListener(receiveUpdate);
 
-    // con window.webxdc.getAllUpdates() obtenemos todos los estados que hemos recibido en el pasado, esto nos sirve para restaurar el estado de nuestra aplicación cuando el usuario la abre.
-    var updates = window.webxdc.getAllUpdates();
-    // si hay estados antiguos, restablecer el estado de la app con el último estado recibido:
-    if (updates.length > 0) {
-        receiveUpdate(updates[updates.length - 1]);
-    }
+    // con window.webxdc.getAllUpdates() obtenemos **de forma asíncrona** todos los estados que hemos recibido en el pasado, esto nos sirve para restaurar el estado de nuestra aplicación cuando el usuario la abre.
+    window.webxdc.getAllUpdates().then((updates) => {
+        // si hay estados antiguos, restablecer el estado de la app con el último estado recibido:
+        if (updates.length > 0) {
+            receiveUpdate(updates[updates.length - 1]);
+        }
+    });
 });
 ```
 
