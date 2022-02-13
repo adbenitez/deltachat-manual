@@ -42,3 +42,4 @@ quieran comenzar a crear aplicaciones para Delta Chat:
   - [Zepto](https://zeptojs.com/), ligera alternativa a jQuery, con API compatible!
   - [W3.CSS](https://www.w3schools.com/w3css/), ligera alternativa a Boostrap.
   - [W3.JS](https://www.w3schools.com/w3js/)
+  - [css.gg](https://css.gg/), íconos en SVG y puro CSS, crea una interfaz atractiva sin sacrificar en tamaño de tu webxdc.
