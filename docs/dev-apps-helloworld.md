@@ -11,6 +11,7 @@ Lo primero que vamos a hacer es crear una carpeta para nuestro proyecto, por eje
 <html>
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Esta línea es la que permite la interacción con Delta Chat: -->
         <script src="webxdc.js"></script>
@@ -51,20 +52,15 @@ function cambiarFondo(color) {
 // esta función es la que usaremos para procesar los estados que recibamos de nuestra aplicación, los cuales fueron enviados con window.webxdc.sendUpdate(), tanto en el dispositivo actual como de otros dispositivos en la red:
 function receiveUpdate(update) {
     // el parámetro "update" es el mismo diccionario pasado por nuestra aplicación con window.webxdc.sendUpdate(), por tanto contiene el color que enviamos en el atributo "payload"
-    var color = update.payload;
-    var body = document.getElementsByTagName("body")[0];
-    body["style"] = "background-color:" + color;
+    if (update.serial == update.max_serial) {  // con esto se comprueba que estamos procesando el último estado recibido, en este ejemplo ignoraremos los estados anteriores
+        var color = update.payload;
+        var body = document.getElementsByTagName("body")[0];
+        body["style"] = "background-color:" + color;
+    }
 }
 
-// con window.webxdc.setUpdateListener() registramos una función o callback que será la que processará los estados que recibimos mientras la app está abierta.
-window.webxdc.setUpdateListener(receiveUpdate);
-
-// con window.webxdc.getAllUpdates() obtenemos **de forma asíncrona** todos los estados que hemos recibido en el pasado, esto nos sirve para restaurar el estado de nuestra aplicación cuando el usuario la abre.
-window.webxdc.getAllUpdates().then((updates) => {
-    // si hay estados antiguos, restablecer el estado de la app con el último estado recibido:
-    if (updates.length > 0) {
-        receiveUpdate(updates[updates.length - 1]);
-    }
+// con window.webxdc.setUpdateListener() registramos una función o callback que será la que processará los estados que recibimos tanto de otros usuarios como los propios. El segundo parámetro es el ID/serial del último estado recibido, si pasas cero, el callback recibirá todos los estados recibidos desde el comienzo, idealmente nuestra app guardaría en localStorage el último serial que hemos procesado y lo pasaría aquí a window.webxdc.setUpdateListener() para no tener que procesar todo de cero cada vez, pero para mantener el ejemplo simple:
+window.webxdc.setUpdateListener(receiveUpdate, 0);
 });
 ```
 

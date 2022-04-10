@@ -38,6 +38,7 @@ quieran comenzar a crear aplicaciones para Delta Chat:
 * [webxdc-phaser](https://github.com/adbenitez/webxdc-phaser): Este proyecto sirve de ejemplo de como crear extensiones para Delta Chat utilizando Phaser, un framework para la creación de juegos.
 * Como fuente de inspiración y ejemplos, puedes encontrar aplicaciones creadas por otros en GitHub: https://github.com/topics/webxdc
 * Puedes usar cualquier biblioteca web como jQuery, React, Bootstrap, etc. pero estas son algunas alternativas más ligeras que harán que tu aplicación pese menos:
+  - [Preact](https://preactjs.com/), rápida alternativa a React con la misma API y pesa solo 3kB.
   - [Mithril](https://mithril.js.org/), ligera alternativa a React, Angular, etc.
   - [Zepto](https://zeptojs.com/), ligera alternativa a jQuery, con API compatible!
   - [W3.CSS](https://www.w3schools.com/w3css/), ligera alternativa a Boostrap.
