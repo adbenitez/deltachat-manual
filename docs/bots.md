@@ -10,4 +10,4 @@ un comando que suelen tener todos los bots es `/help` con el cual el bot te resp
 ## Bots Públicos
 
 Un listado de bots públicos puede ser encontrado en:
-https://simplebot-org.github.io/simplebot-instances/
+https://deltachat-bot.github.io/public-bots/
