@@ -91,8 +91,6 @@ has click: [aquí](http://delta.chat)
 Existen apps de blog de notas que te ayudan escribir en este formato utilizado para escribir en los blogs, ese formato se llama **Markdown** y las aplicaciones
 que recomiendo utilizar son estas:
 
-* [DeltaLab](https://github.com/adbenitez/deltalab-android) es una versión modificada de Delta Chat, que tiene soporte para Markdown, por lo que podrás ver el
-  artículo en Markdown en el propio chat donde haces la publicación, es la mejor experiencia en cuanto a integración.
 * [Notes](https://f-droid.org/packages/org.billthefarmer.notes) es un blog de notas super simple, pesa solo 183KB y puedes descargarla directamente de la página 
   de [F-Droid](https://f-droid.org/packages/org.billthefarmer.notes), esta aplicación te permite escribir texto en este formato que he explicado hoy aquí y
   pre-visualizar como se va a ver en forma de página web(lo convierte a html) antes de que lo publiques.
